@@ -8,7 +8,7 @@ namespace AvanadeSD.Plugin
         public void Execute(IServiceProvider serviceProvider)
         {
             #region stuff
-            // Logic goes here.
+            // Changing this comment
             // Obtain the execution context service from the service provider.
             var context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
 
